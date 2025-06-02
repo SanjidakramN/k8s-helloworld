@@ -12,7 +12,7 @@ pipeline {
                     docker stop devpython
                     docker rm devpython
                 fi
-                docker run -d -p 5009:500 --name devpython sanjidakram/devpython
+                docker run -d -p 5009:5000 --name devpython sanjidakram/devpython
                 '''
             }
         }
